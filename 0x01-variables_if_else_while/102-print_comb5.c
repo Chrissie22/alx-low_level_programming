@@ -15,7 +15,7 @@ int main(void)
 			for (k = 48; k <= 57; k++)
 				for (l = 48; l <= 57; l++)
 				{
-					if ((k + l) > (i + j) && k >= i)
+					if (((k + l) > (i + j) && k >= i) || i < k)
 					{
 						putchar(i);
 						putchar(j);
