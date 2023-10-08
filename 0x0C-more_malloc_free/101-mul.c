@@ -50,7 +50,7 @@ void errors(void)
 }
 
 /**
- * main - multiplies two positive numbers
+ * main - multiplies two positive numbers.
  * @argc: number of arguments
  * @argv: array of arguments
  *
