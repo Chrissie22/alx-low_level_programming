@@ -17,7 +17,7 @@ int main(int argc, char **argv)
 		return (1);
 	}
 
-	n1 = aoi(argv[1]);
+	n1 = atoi(argv[1]);
 	n2 = atoi(argv[2]);
 
 	result = n1 * n2;
