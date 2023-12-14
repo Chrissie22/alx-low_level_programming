@@ -4,6 +4,7 @@
 /**
  * print_binary - print binary representation of a number
  * @n: decimal number to print as binary
+ * Return: void.
  */
 void print_binary(unsigned long int n)
 {
